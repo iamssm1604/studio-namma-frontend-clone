@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="header_section">
+        <p id="header_p1"><a href="#">STUDIO NAMMA</a></p>
+        <p id="header_p2"><a href="#">DARK MODE</a></p>
+        <p id="header_p3"><a href="#" id="menu-toggle-btn">MENU</a></p>
+        <p id="header_p4"><a href="#">LET'S TALK!</a></p>
+    </div>
+
+    <div id="underneath_menu">
+        <div class="menu-content">
+            <div class="menu-col">
+                <a href="#" class="menu-item" data-image="images/heroImg1.jpg">HOME</a>
+                <a href="#" class="menu-item" data-image="images/cardImg1.jpeg">WORK</a>
+                <a href="#" class="menu-item" data-image="images/cardImg2.jpeg">SERVICES</a>
+                <a href="#" class="menu-item" data-image="images/cardImg3.jpeg">APPROACH</a>
+            </div>
+            <div class="menu-col">
+                <a href="#" class="menu-item" data-image="images/cardImg4.jpeg">STUDIO</a>
+                <a href="#" class="menu-item" data-image="images/playgroundImg1.webp">PLANS</a>
+                <a href="#" class="menu-item" data-image="images/playgroundImg2.webp">NEWS</a>
+            </div>
+        </div>
+        <img id="menu-floating-img" src="" alt="Menu Preview">
+    </div>
+
+    <div id="slide_wrapper">
+        <div id="main_container">
+            
+            <div id="hero_container">
+                <div id="section1">
+                    <h1>WE THINK</h1>
+                    <h1>CRAFT AND</h1>
+                    <h1>DESIGN</h1>
+                </div>
+                <div id="heroImg">
+                    <img src="images/heroImg1.jpg" alt="Hero Image">
+                </div>
+            </div>
+
+            <div id="section2">
+                <video id="vid1" autoplay muted loop preload="metadata" playsinline>
+                    <source src="images/vid4.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div id="section3">
+                <div id="textSmall1Container">
+                    <div>
+                        CREATIVE STUDIO BUILDING PREMIUM BRANDS
+                    </div>
+                </div>
+                
+                <div id="textLargeContainer">
+                    <div class="textLarge">
+                        IT'S NEVER "JUST A WEBSITE."
+                    </div>
+                    <div class="textLarge">
+                        EVERY <span class="hover-trigger" data-type="detail">DETAIL</span> MATTERS.
+                    </div>
+                    <div class="textLarge">
+                        WE CRAFT DIGITAL EXPERIENCES.
+                    </div>
+                    <div class="textLarge">
+                        YOUR DESIGN. OUR OBSESSION.
+                    </div>
+                    <div class="textLarge">
+                        YOUR BRAND. OUR <span class="hover-trigger" data-type="playground">PLAYGROUND</span>.
+                    </div>
+
+                    <div id="trail-image-container"></div>
+                </div>
+                
+                <div id="selectedProjects">
+                    SELECTED PROJECTS
+                </div>
+                
+                <div id="playgroundContainer">
+                    <div id="realPlayground">
+                        PLAYGROUND
+                    </div>
+                </div>
+                
+                <div id="sectionFiveFourImagesContainer">
+                    <div id="card1">
+                        <div class="grid-card" id="cardImg1">
+                            <img class="card-static-img" src="images/cardImg1.jpeg" alt="image">
+                            <video class="card-hover-video" muted loop preload="metadata" playsinline>
+                                <source src="images/vid1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        
+                        <div class="grid-card" id="cardImg2">
+                            <img class="card-static-img" src="images/cardImg2.jpeg" alt="image">
+                            <video class="card-hover-video" muted loop preload="metadata" playsinline>
+                                <source src="images/vid2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    
+                    <div id="card2">
+                        <div class="grid-card" id="cardImg3">
+                            <img class="card-static-img" src="images/cardImg3.jpeg" alt="cardImg3">
+                            <video class="card-hover-video" muted loop preload="metadata" playsinline>
+                                <source src="images/vid3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        
+                        <div class="grid-card" id="cardImg4">
+                            <img class="card-static-img" src="images/cardImg4.jpeg" alt="cardImg4">
+                            <video class="card-hover-video" muted loop preload="metadata" playsinline>
+                                <source src="images/vid4.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll/bundled/locomotive-scroll.min.js"></script>
+    <script>
+        const locomotiveScroll = new LocomotiveScroll();
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
